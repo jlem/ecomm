@@ -4,5 +4,5 @@ use Ecomm\Order;
 
 interface Tax
 {
-    public function calculateTax(Order $order);
+    public function applyTo(Order $order);
 }

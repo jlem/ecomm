@@ -20,10 +20,9 @@ class SimpleFlatDiscount implements Discount
         $this->amount = $amount;
     }
 
-    public function calculateDiscount(Order $order)
+    public function applyTo(Order $order)
     {
         // Validate order eligibility if needed
-
-        return $this->amount;
+        // Apply to order as appropriate
     }
 }

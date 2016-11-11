@@ -4,5 +4,5 @@ use Ecomm\Order;
 
 interface Discount
 {
-    public function calculateDiscount(Order $order);
+    public function applyTo(Order $order);
 }
